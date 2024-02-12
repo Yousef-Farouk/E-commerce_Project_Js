@@ -72,19 +72,13 @@ body {
     z-index: 10;
     padding-top: 20px;
     padding-bottom:20px ;
-    /* transform: translate(-50%, -50%); */
-
-    /* background: rgba(61, 70, 77, 0.5);
-    display: flex;
-    align-items: center;
-    justify-content: center; */
 }
-@media (max-width: 360px) {
+@media (max-width: 767px) {
   .custom-centered-div {
-    width: 90%;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+    width: 300px; 
+    height: 200px; 
+    left: calc(50% - 150px); 
+    top: calc(50% - 100px);
   }
 }
 .prev{
