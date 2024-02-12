@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container-fluid header mb-4" >
+      <div class="row px-xl-5">
+        <div class="col-lg-12 pt-3 ">
+          <nav class="navbar navbar-expand-lg mb-4">
+            <a href="" class="text-decoration-none">
+              <span class="multi h1 text-uppercase bg-dark px-2"> multi </span>
+              <span class="shop h1 text-uppercase px-2"> shop </span>
+            </a>
+
+            <button
+              class="navbar-toggler collapsed"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarCollapse"
+              aria-expanded="false"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="navbar-collapse justify-content-between collapse"
+              id="navbarCollapse"
+            >
+              <div class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <a class="nav-link p-2 p-lg-3 " href="./index.html"
+                  >Home</a
+                >
+                <a class="nav-link p-2 p-lg-3" href="./about.html">About</a>
+                <a class="nav-link p-2 p-lg-3 active" href="./contact.html">Contact</a>
+              </div>
+              <!-- <div class="cart ps-3 pe-3 d-none d-lg-block">
+                <a class="nav-link" href="cart.html">
+                  <i class="fas fa-shopping-cart"></i>
+                  <span class="badge border rounded-circle" id = "cart_count" >0</span>
+                </a>
+              </div> -->
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="row px-xl-5">
+        <nav class="col-12 mt-4 mb-5 path-item ms-2">
+          <a href="#" class="path">Home</a>
+          <span class="path" style="color: #6c757d">Contact</span>
+        </nav>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <h2 class="section-title position-relative text-uppercase mx-xl-5 mb-4">
+        <span class="pe-3">Contact Us</span>
+      </h2>
+      <div class="row px-xl-5">
+        <div class="col-lg-7 col-md-12 mb-4">
+          <div class="contact-form">
+            <form action="">
+              <div class="control-group">
+                <input
+                  type="text"
+                  class="form-control mb-3 "
+                  id="name"
+                  placeholder="Your Name"
+                />
+                <p class="help-block text-danger d-none ps-2  ">Name must not contain numbers.</p>
+              </div>
+              <div class="control-group ">
+                <input
+                  type="email"
+                  class="form-control mb-3"
+                  id="email"
+                  placeholder="Your Email"
+                />
+                <p class="help-block text-danger d-none ps-2 ">Invalid Email.</p>
+              </div>
+              <div class="control-group">
+                <input
+                  type="password"
+                  class="form-control mb-3"
+                  id="password"
+                  placeholder="Password"
+                />
+                <p class="help-block text-danger ps-2 d-none ">Password must contain at least 8 digits.</p>
+              </div>
+              <div class="control-group">
+                <input
+                  type="password"
+                  class="form-control mb-3"
+                  id="confirm_password"
+                  placeholder="Confirm Password"
+                />
+                <p class="help-block text-danger d-none ps-2 ">Does not match the password.</p>
+              </div>
+              <div class="control-group">
+                <input
+                  type="text"
+                  class="form-control mb-3"
+                  id="subject"
+                  placeholder="Subject"
+                />
+                <p class="help-block text-danger d-none ps-2 ">Required !</p>
+              </div>
+              <div class="control-group">
+                <textarea
+                  class="form-control mb-3"
+                  rows="8"
+                  id="message"
+                  placeholder="Message"
+                ></textarea>
+                <p class="help-block text-danger ps-2 d-none">Required !</p>
+              </div>
+              <div>
+                <button class="btn sign py-2 px-4" type="">
+                  Send Message
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <div class="col-lg-5 mb-5">
+          <div class="map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27486.052770480022!2d31.034883014144!3d30.556180278848075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14f7d6f3a7714525%3A0xc0bc979946137d21!2z2YXYsdmD2LIg2LTYqNmK2YYg2KfZhNmD2YjZhdiMINmF2K3Yp9mB2LjYqSDYp9mE2YXZhtmI2YHZitip!5e0!3m2!1sar!2seg!4v1706897472492!5m2!1sar!2seg"
+              width="100%"
+              height="250px"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              aria-hidden="false"
+            ></iframe>
+          </div>
+
+          <div class="bg-white contacts mb-3">
+            <p class="mb-2">
+              <i class="fa fa-map-marker-alt me-3"></i>123
+              Street,Shebin-ElKom,Egypt
+            </p>
+            <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@gmail.com</p>
+            <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>010 6428 724</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid pt-5 footer mt-5">
+      <div class="row px-xl-5 pt-5">
+        <div class="col-lg-4 col-md-12 mb-5 pe-5">
+          <h5 class="text-uppercase mb-4">get in touch</h5>
+          <p class="mb-4">
+            No dolore ipsum accusam no lorem. Invidunt sed clita kasd clita et
+            et dolor sed dolor. Rebum tempor no vero est magna amet no
+          </p>
+          <p>
+            <i class="fa fa-map-marker-alt me-3"></i>123
+            Street,Shebin-ElKom,Egypt
+          </p>
+          <p><i class="fa fa-envelope me-3"></i>info@gmail.com</p>
+          <p><i class="fa fa-phone-alt me-3"></i>010 6428 724</p>
+        </div>
+        <div class="col-lg-8 col-md-12">
+          <div class="row">
+            <div class="col-md-4 mb-5">
+              <h5 class="text-uppercase mb-4">quick shop</h5>
+              <div>
+                <p><i class="fa fa-angle-right me-1"></i>Home</p>
+                <p><i class="fa fa-angle-right me-1"></i>Our Shop</p>
+                <p><i class="fa fa-angle-right me-1"></i>Shop Detail</p>
+                <p><i class="fa fa-angle-right me-1"></i>Shopping Cart</p>
+                <p><i class="fa fa-angle-right me-1"></i>Checkout</p>
+                <p><i class="fa fa-angle-right me-1"></i>Contact Us</p>
+              </div>
+            </div>
+
+            <div class="col-md-4 mb-5">
+              <h5 class="text-uppercase mb-4">my account</h5>
+              <div>
+                <p><i class="fa fa-angle-right me-1"></i>Home</p>
+                <p><i class="fa fa-angle-right me-1"></i>Our Shop</p>
+                <p><i class="fa fa-angle-right me-1"></i>Shop Detail</p>
+                <p><i class="fa fa-angle-right me-1"></i>Shopping Cart</p>
+                <p><i class="fa fa-angle-right me-1"></i>Checkout</p>
+                <p><i class="fa fa-angle-right me-1"></i>Contact Us</p>
+              </div>
+            </div>
+
+            <div class="col-md-4 mb-5">
+              <h5 class="text-uppercase mb-4">new settler</h5>
+              <div>
+                <p>Duo stet tempor ipsum sit amet magna ipsum tempor est</p>
+                <form action="">
+                  <div class="input-group">
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Your Email Address"
+                    />
+                    <button class="btn sign">Sign Up</button>
+                  </div>
+                </form>
+                <div>
+                  <h6 class="text-uppercase mb-3 mt-4">follow us</h6>
+                  <div class="social button d-flex">
+                    <a class="btn btn-square me-2" href="#"
+                      ><i class="fab fa-twitter"></i
+                    ></a>
+                    <a class="btn me-2" href="#"
+                      ><i class="fab fa-facebook-f"></i
+                    ></a>
+                    <a class="btn me-2" href="#"
+                      ><i class="fab fa-linkedin-in"></i
+                    ></a>
+                    <a class="btn me-2" href="#"
+                      ><i class="fab fa-instagram"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="row mx-xl-5 border-top py-4"
+        style="border-color: rgba(256, 256, 256, 0.1) !important"
+      >
+        <div class="col-md-6">
+          <p class="text-center text-md-start">
+            &copy;<a class="text-primary " href="#">Domain</a>.All Right
+            Reserved. Designed by
+            <a class="text-primary" href="">Joo</a>
+          </p>
+        </div>
+        <div class="col-md-6   px-xl-0 text-center text-md-end">
+          <img class="img-fluid " src="imgs/payments.png" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <script src="./js/contact.js"></script>
+  </body>
+</html>

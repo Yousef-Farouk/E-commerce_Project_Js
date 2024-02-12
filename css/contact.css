@@ -1,0 +1,51 @@
+:root{
+    --dark : #3d464d;
+    --yellow:#ffd333;
+    --white:#f5f5f5;
+}
+
+body{
+    font-family: "Roboto",sans-serif;
+    /* height: 10000px; */
+    background-color: var(--white);
+}
+
+.navbar{
+    background-color: var(--dark)
+}
+
+.navbar .multi{
+    color: var(--yellow);
+    background-color: var(--dark);
+}
+
+.navbar .shop
+{
+    color: var(--dark);
+    background-color: var(--yellow);
+}
+
+.navbar .navbar-nav .nav-link{
+    color:var(--white)
+} 
+
+.navbar .cart i{
+    color:var(--yellow)
+} 
+
+.navbar .badge
+{
+    width: 18.48px;
+    height: 19px;
+    position: relative;
+    top: -1px;
+    padding: 2px;
+}
+
+.navbar .navbar-nav .active{
+    color:var(--yellow)
+} 
+
+.navbar .navbar-nav :hover{
+    color: var(--yellow);
+}

@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- nav bar -->
+    <div class="container-fluid header mb-4" >
+      <div class="row px-xl-5">
+        <div class="col-lg-12 pt-3">
+          <nav class="navbar navbar-expand-lg mb-4">
+            <a href="" class="text-decoration-none">
+              <span class="multi h1 text-uppercase bg-dark px-2"> multi </span>
+              <span class="shop h1 text-uppercase px-2"> shop </span>
+            </a>
+
+            <button
+              class="navbar-toggler collapsed"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarCollapse"
+              aria-expanded="false"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="navbar-collapse justify-content-between collapse"
+              id="navbarCollapse"
+            >
+              <div class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <a class="nav-link p-2 p-lg-3 active" href="./index.html"
+                  >Home</a
+                >
+                <a class="nav-link p-2 p-lg-3" href="./about.html">About</a>
+                <a class="nav-link p-2 p-lg-3" href="./contact.html">Contact</a>
+              </div>
+              <div class="cart ps-3 pe-3 d-none d-lg-block">
+                <a class="nav-link" href="cart.html">
+                  <i class="fas fa-shopping-cart"></i>
+                  <span class="badge border rounded-circle" id = "cart_count" >0</span>
+                </a>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+
+    <!-- slider -->
+
+    <div class="container-fluid">
+      <div class="row px-xl-5">
+        <div class="col-lg-12">
+          
+            <div class="position-relative">
+              <div class="image-container position-relative show " style="height: 430px;" >
+                <img  class="position-absolute h-100 w-100 " src="./imgs/carousel-1.jpg " id = "slide_img"/>
+                <div class="custom-centered-div d-flex flex-column justify-content-center align-items-center  text-white p-3 text-center">
+                  <div class="p-3" style="max-width: 700px">
+                    <h1 class="display-4 " >Men Fashion</h1>
+                    <p class="px-5 mx-5">
+                      Lorem rebum magna amet lorem magna erat diam stet. Sadips
+                      duo stet amet amet ndiam elitr ipsum diam
+                    </p>
+                    <a class="btn btn-outline-light" href="#">Shop Now</a>
+                   
+                  </div>
+                </div>
+                
+              </div>
+              <div class="image-container position-relative " style="height: 430px;" >
+                <img  class="position-absolute h-100 w-100 " src="./imgs/carousel-2.jpg " id = "slide_img"/>
+                <div class="custom-centered-div d-flex flex-column justify-content-center align-items-center  text-white p-3 text-center">
+                  <div class="p-3" style="max-width: 700px">
+                    <h1 class="display-4 " >Women Fashion</h1>
+                    <p class="px-5 mx-5">
+                      Lorem rebum magna amet lorem magna erat diam stet. Sadips
+                      duo stet amet amet ndiam elitr ipsum diam
+                    </p>
+                    <a class="btn btn-outline-light" href="#">Shop Now</a>
+                   
+                  </div>
+                </div>
+              </div>
+              <div class="image-container  position-relative " style="height: 430px;" >
+                <img  class="position-absolute h-100 w-100 " src="./imgs/carousel-3.jpg " id = "slide_img"/>
+                <div class="custom-centered-div d-flex flex-column justify-content-center align-items-center  text-white p-3 text-center">
+                  <div class="p-3" style="max-width: 700px">
+                    <h1 class="display-4 " >Kids Fashion</h1>
+                    <p class="px-5 mx-5">
+                      Lorem rebum magna amet lorem magna erat diam stet. Sadips
+                      duo stet amet amet ndiam elitr ipsum diam
+                    </p>
+                    <a class="btn btn-outline-light" href="#">Shop Now</a>
+                   
+                  </div>
+                </div>
+              </div>
+              <button class="btn position-absolute prev">
+                <h2 class="fa-solid fa-angle-left"></h2>
+              </button>
+
+              <button class="btn position-absolute next">
+                <h2 class="fa-solid fa-angle-right"></h2>
+              </button>
+            </div>
+          
+        </div>
+      </div>
+    </div>      
+   
+    <!-- featured -->
+
+    <div class="container-fluid mt-5 position-relative">
+      <div class="row px-xl-5 pb-3">
+        <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
+          <div
+            class="d-flex align-items-center bg-white mb-4"
+            style="padding: 24px"
+          >
+            <h1 class="fa fa-check check"></h1>
+            <h5 class="font-weight-semi-bold m-0">Quality Product</h5>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
+          <div
+            class="d-flex align-items-center bg-white mb-4"
+            style="padding: 24px"
+          >
+            <h1 class="fa fa-shipping-fast check"></h1>
+            <h5 class="font-weight-semi-bold m-0">Free Shipping</h5>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
+          <div
+            class="d-flex align-items-center bg-white mb-4"
+            style="padding: 24px"
+          >
+            <h1 class="fas fa-exchange-alt check"></h1>
+            <h5 class="font-weight-semi-bold m-0">14-Day Return</h5>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
+          <div
+            class="d-flex align-items-center bg-white mb-4"
+            style="padding: 24px"
+          >
+            <h1 class="fa fa-phone-volume check"></h1>
+            <h5 class="font-weight-semi-bold m-0">24/7 Support</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- categories -->
+    <div class="container-fluid pt-5">
+      <h2
+        class="section-title position-relative mt-4 mb-4 text-uppercase mx-xl-5 mb-4"
+      >
+        <span class="">Categories</span>
+      </h2>
+      <div class="row px-xl-5 pb-3">
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <div class="d-flex align-items-center position-relative bg-white category mb-4" id="clothes">
+            <img src="./imgs/cat-1.jpg" />
+            <div class="flex-fill ps-3 " >
+              <h6>Clothes</h6>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <div class="d-flex align-items-center bg-white category mb-4" id="electronics">
+            <img src="./imgs/cat-2.jpg" />
+            <div class="flex-fill ps-3" >
+              <h6>Electronics</h6>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <div class="d-flex align-items-center bg-white category mb-4" id="furniture" >
+            <img src="./imgs/product4.jpg.webp" />
+            <div class="flex-fill ps-3 " >
+              <h6>Furniture</h6>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <div class="d-flex align-items-center bg-white category mb-4"  id="jewellery">
+            <img src="./imgs/h3-shop-list-10.jpg"/>
+            <div class="flex-fill ps-3">
+              <h6>Jewellery</h6>
+            </div>
+          </div>
+        </div>
+       
+      </div>
+    </div>
+
+    <!-- products -->
+
+    <div class="container-fluid pt-4">
+      <h2
+        class="section-title position-relative mt-4 mb-4 text-uppercase mx-xl-5 mb-4"
+      >
+        <span class="">featured products</span>
+      </h2>
+      <div class="row px-xl-5 pb-3">
+        <div class="col-lg-3 position-relative col-md-4 col-sm-6 type">
+          <div class="product-item  bg-white mb-4">
+            <div class="product-img position-relative overflow-hidden">
+              <img class="image-fluid w-100 item-img" src="" id=""/>
+              <div class="product-action">
+                <button class="btn btn-outline-dark btn-square cart_button" href=""><i class="fa fa-shopping-cart"></i></button>
+                <a class="btn btn-outline-dark btn-square" href="./details.html"><i class="fa fa-search"></i></a>
+
+              </div>
+            </div>
+            <div class="text-center py-4">
+              <h6 class="item-name"></h6>
+              <h5 class="item-price"></h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 position-relative col-md-4 col-sm-6 type">
+          <div class="product-item  bg-white mb-4">
+            <div class="product-img position-relative overflow-hidden">
+              <img class="image-fluid w-100 item-img" src="" id=""/>
+              <div class="product-action">
+                <button class="btn btn-outline-dark btn-square " href=""><i class="fa fa-shopping-cart"></i></button>
+                <a class="btn btn-outline-dark btn-square" href="./details.html"><i class="fa fa-search"></i></a>
+              </div>
+            </div>
+            <div class="text-center py-4">
+              <h6 class="item-name"></h6>
+              <h5 class="item-price"></h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 position-relative col-md-4 col-sm-6 type">
+          <div class="product-item  bg-white mb-4">
+            <div class="product-img position-relative overflow-hidden">
+              <img class="image-fluid w-100 item-img" src="" id=""/>
+              <div class="product-action">
+                <button class="btn btn-outline-dark btn-square" href=""><i class="fa fa-shopping-cart"></i></button>
+                <a class="btn btn-outline-dark btn-square" href="./details.html"><i class="fa fa-search"></i></a>
+
+              </div>
+            </div>
+            <div class="text-center py-4">
+              <h6 class="item-name"></h6>
+              <h5 class="item-price"></h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 position-relative col-md-4 col-sm-6 type">
+          <div class="product-item bg-white mb-4">
+            <div class="product-img position-relative overflow-hidden">
+              <img class="image-fluid w-100 item-img" src="" id=""/>
+              <div class="product-action">
+                <button class="btn btn-outline-dark btn-square" href=""><i class="fa fa-shopping-cart"></i></button>
+                <a class="btn btn-outline-dark btn-square" href="./details.html"><i class="fa fa-search"></i></a>
+
+
+              </div>
+            </div>
+            <div class="text-center py-4">
+              <h6 class="item-name"></h6>
+              <h5 class="item-price"></h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 position-relative col-md-4 col-sm-6 type">
+          <div class="product-item  bg-white mb-4">
+            <div class="product-img position-relative overflow-hidden">
+              <img class="image-fluid w-100 item-img" src="" id=""/>
+              <div class="product-action">
+                <button class="btn btn-outline-dark btn-square" href=""><i class="fa fa-shopping-cart"></i></button>
+                <a class="btn btn-outline-dark btn-square" href="./details.html"><i class="fa fa-search"></i></a>
+
+              </div>
+            </div>
+            <div class="text-center py-4">
+              <h6 class="item-name"></h6>
+              <h5 class="item-price"></h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 position-relative col-md-4 col-sm-6 type">
+          <div class="product-item  bg-white mb-4">
+            <div class="product-img position-relative overflow-hidden">
+              <img class="image-fluid w-100 item-img" src="" id=""/>
+              <div class="product-action">
+                <button class="btn btn-outline-dark btn-square" href=""><i class="fa fa-shopping-cart"></i></button>
+                <a class="btn btn-outline-dark btn-square" href="./details.html"><i class="fa fa-search"></i></a>
+
+              </div>
+            </div>
+            <div class="text-center py-4">
+              <h6 class="item-name"></h6>
+              <h5 class="item-price"></h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 position-relative col-md-4 col-sm-6 type">
+          <div class="product-item  bg-white mb-4">
+            <div class="product-img position-relative overflow-hidden">
+              <img class="image-fluid w-100 item-img" src="" id=""/>
+              <div class="product-action">
+                <button class="btn btn-outline-dark btn-square" href=""><i class="fa fa-shopping-cart"></i></button>
+                <a class="btn btn-outline-dark btn-square" href="./details.html"><i class="fa fa-search"></i></a>
+
+              </div>
+            </div>
+            <div class="text-center py-4">
+              <h6 class="item-name"></h6>
+              <h5 class="item-price"></h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 position-relative col-md-4 col-sm-6 type">
+          <div class="product-item  bg-white mb-4">
+            <div class="product-img position-relative overflow-hidden">
+              <img class="image-fluid w-100 item-img" src="" id=""/>
+              <div class="product-action">
+                <button class="btn btn-outline-dark btn-square" href=""><i class="fa fa-shopping-cart"></i></button>
+                <a class="btn btn-outline-dark btn-square" href="./details.html"><i class="fa fa-search"></i></a>
+
+              </div>
+            </div>
+            <div class="text-center py-4">
+              <h6 class="item-name"></h6>
+              <h5 class="item-price"></h5>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-lg-3 position-relative col-md-4 col-sm-6 type">
+          <div class="product-item  bg-white mb-4">
+            <div class="product-img position-relative overflow-hidden">
+              <img class="image-fluid w-100 item-img" src="" id=""/>
+              <div class="product-action">
+                <button class="btn btn-outline-dark btn-square" href=""><i class="fa fa-shopping-cart"></i></button>
+                <a class="btn btn-outline-dark btn-square" href="./details.html"><i class="fa fa-search"></i></a>
+
+              </div>
+            </div>
+            <div class="text-center py-4">
+              <h6 class="item-name"></h6>
+              <h5 class="item-price"></h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 position-relative col-md-4 col-sm-6 type">
+          <div class="product-item  bg-white mb-4">
+            <div class="product-img position-relative overflow-hidden">
+              <img class="image-fluid w-100 item-img" src="" id=""/>
+              <div class="product-action">
+                <button class="btn btn-outline-dark btn-square" href=""><i class="fa fa-shopping-cart"></i></button>
+                <a class="btn btn-outline-dark btn-square" href="./details.html"><i class="fa fa-search"></i></a>
+
+              </div>
+            </div>
+            <div class="text-center py-4">
+              <h6 class="item-name"></h6>
+              <h5 class="item-price"></h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 position-relative col-md-4 col-sm-6 type">
+          <div class="product-item bg-white mb-4">
+            <div class="product-img position-relative overflow-hidden">
+              <img class="image-fluid w-100 item-img" src="" id=""/>
+              <div class="product-action">
+                <button class="btn btn-outline-dark btn-square" href=""><i class="fa fa-shopping-cart"></i></button>
+                <a class="btn btn-outline-dark btn-square" href="./details.html"><i class="fa fa-search"></i></a>
+
+              </div>
+            </div>
+            <div class="text-center py-4">
+              <h6 class="item-name"></h6>
+              <h5 class="item-price"></h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 position-relative col-md-4 col-sm-6 type">
+          <div class="product-item  bg-white mb-4">
+            <div class="product-img position-relative overflow-hidden">
+              <img class="image-fluid w-100 item-img" src="" id=""/>
+              <div class="product-action">
+                <button class="btn btn-outline-dark btn-square " href=""><i class="fa fa-shopping-cart"></i></button>
+                <a class="btn btn-outline-dark btn-square" href="./details.html"><i class="fa fa-search"></i></a>
+
+              </div>
+            </div>
+            <div class="text-center py-4">
+              <h6 class="item-name"></h6>
+              <h5 class="item-price"></h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 position-relative col-md-4 col-sm-6 type">
+          <div class="product-item  bg-white mb-4">
+            <div class="product-img position-relative overflow-hidden">
+              <img class="image-fluid w-100 item-img" src="" id=""/>
+              <div class="product-action">
+                <button class="btn btn-outline-dark btn-square" href=""><i class="fa fa-shopping-cart"></i></button>
+                <a class="btn btn-outline-dark btn-square" href="./details.html"><i class="fa fa-search"></i></a>
+
+              </div>
+            </div>
+            <div class="text-center py-4">
+              <h6 class="item-name"></h6>
+              <h5 class="item-price"></h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 position-relative col-md-4 col-sm-6 type">
+          <div class="product-item  bg-white mb-4">
+            <div class="product-img position-relative overflow-hidden">
+              <img class="image-fluid w-100 item-img" src="" id=""/>
+              <div class="product-action">
+                <button class="btn btn-outline-dark btn-square" href=""><i class="fa fa-shopping-cart"></i></button>
+                <a class="btn btn-outline-dark btn-square" href="./details.html"><i class="fa fa-search"></i></a>
+
+              </div>
+            </div>
+            <div class="text-center py-4">
+              <h6 class="item-name"></h6>
+              <h5 class="item-price"></h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 position-relative col-md-4 col-sm-6 type">
+          <div class="product-item  bg-white mb-4">
+            <div class="product-img position-relative overflow-hidden">
+              <img class="image-fluid w-100 item-img" src="" id=""/>
+              <div class="product-action">
+                <button class="btn btn-outline-dark btn-square" href=""><i class="fa fa-shopping-cart"></i></button>
+                <a class="btn btn-outline-dark btn-square" href="./details.html"><i class="fa fa-search"></i></a>
+
+              </div>
+            </div>
+            <div class="text-center py-4">
+              <h6 class="item-name"></h6>
+              <h5 class="item-price"></h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 position-relative col-md-4 col-sm-6 type">
+          <div class="product-item  bg-white mb-4">
+            <div class="product-img position-relative overflow-hidden">
+              <img class="image-fluid w-100 item-img" src="" id=""/>
+              <div class="product-action">
+                <button class="btn btn-outline-dark btn-square" href="" ><i class="fa fa-shopping-cart"></i></button>
+                <a class="btn btn-outline-dark btn-square" href="./details.html"><i class="fa fa-search"></i></a>
+              </div>
+            </div>
+            <div class="text-center py-4">
+              <h6 class="item-name"></h6>
+              <h5 class="item-price"></h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- vendor -->
+
+    <div class="container-fluid pt-5">
+      <div class="row px-xl-5 pb-3">
+        <div class="col-lg-2 col-md-3 col-sm-4">
+          <div class="position-relative overflow-hidden mb-4">
+            <img class="w-100" src="./imgs/vendor-1.jpg" />
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-4">
+          <div class="position-relative overflow-hidden mb-4">
+            <img class="w-100" src="./imgs/vendor-2.jpg" />
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-4">
+          <div class="position-relative overflow-hidden mb-4">
+            <img class="w-100" src="./imgs/vendor-3.jpg" />
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-4">
+          <div class="position-relative overflow-hidden mb-4">
+            <img class="w-100" src="./imgs/vendor-4.jpg" />
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-4">
+          <div class="position-relative overflow-hidden mb-4">
+            <img class="w-100" src="./imgs/vendor-5.jpg" />
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-4">
+          <div class="position-relative overflow-hidden mb-4">
+            <img class="w-100" src="./imgs/vendor-6.jpg" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer -->
+
+    <div class="container-fluid pt-5 footer">
+      <div class="row px-xl-5 pt-5">
+        <div class="col-lg-4 col-md-12 mb-5 pe-5">
+          <h5 class="text-uppercase mb-4">get in touch</h5>
+          <p class="mb-4">
+            No dolore ipsum accusam no lorem. Invidunt sed clita kasd clita et
+            et dolor sed dolor. Rebum tempor no vero est magna amet no
+          </p>
+          <p>
+            <i class="fa fa-map-marker-alt me-3"></i>123
+            Street,Shebin-ElKom,Egypt
+          </p>
+          <p><i class="fa fa-envelope me-3"></i>info@gmail.com</p>
+          <p><i class="fa fa-phone-alt me-3"></i>010 6428 724</p>
+        </div>
+        <div class="col-lg-8 col-md-12">
+          <div class="row">
+            <div class="col-md-4 mb-5">
+              <h5 class="text-uppercase mb-4">quick shop</h5>
+              <div>
+                <p><i class="fa fa-angle-right me-1"></i>Home</p>
+                <p><i class="fa fa-angle-right me-1"></i>Our Shop</p>
+                <p><i class="fa fa-angle-right me-1"></i>Shop Detail</p>
+                <p><i class="fa fa-angle-right me-1"></i>Shopping Cart</p>
+                <p><i class="fa fa-angle-right me-1"></i>Checkout</p>
+                <p><i class="fa fa-angle-right me-1"></i>Contact Us</p>
+              </div>
+            </div>
+
+            <div class="col-md-4 mb-5">
+              <h5 class="text-uppercase mb-4">my account</h5>
+              <div>
+                <p><i class="fa fa-angle-right me-1"></i>Home</p>
+                <p><i class="fa fa-angle-right me-1"></i>Our Shop</p>
+                <p><i class="fa fa-angle-right me-1"></i>Shop Detail</p>
+                <p><i class="fa fa-angle-right me-1"></i>Shopping Cart</p>
+                <p><i class="fa fa-angle-right me-1"></i>Checkout</p>
+                <p><i class="fa fa-angle-right me-1"></i>Contact Us</p>
+              </div>
+            </div>
+
+            <div class="col-md-4 mb-5">
+              <h5 class="text-uppercase mb-4">new settler</h5>
+              <div>
+                <p>Duo stet tempor ipsum sit amet magna ipsum tempor est</p>
+                <form action="">
+                  <div class="input-group">
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Your Email Address"
+                    />
+                    <button class="btn sign">Sign Up</button>
+                  </div>
+                </form>
+                <div>
+                  <h6 class="text-uppercase mb-3 mt-4">follow us</h6>
+                  <div class="social button d-flex">
+                    <a class="btn btn-square me-2" href=""
+                      ><i class="fab fa-twitter"></i
+                    ></a>
+                    <a class="btn me-2" href="#"
+                      ><i class="fab fa-facebook-f"></i
+                    ></a>
+                    <a class="btn me-2" href="#"
+                      ><i class="fab fa-linkedin-in"></i
+                    ></a>
+                    <a class="btn me-2" href="#"
+                      ><i class="fab fa-instagram"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="row mx-xl-5 border-top py-4"
+        style="border-color: rgba(256, 256, 256, 0.1) !important"
+      >
+        <div class="col-md-6">
+          <p class="text-center text-md-start">
+            &copy;<a class="text-primary" href="#">Domain</a>.All Right
+            Reserved. Designed by
+            <a class="text-primary" href="">Joo</a>
+          </p>
+        </div>
+        <div class="col-md-6 px-xl-0 text-center text-md-end">
+          <img class="img-fluid" src="imgs/payments.png" alt="" />
+        </div>
+      </div>
+    </div>
+    <!-- <div class="back-to-top"> -->
+      <button class="btn last_btn " id="back-to-top"><i class="fa fa-angle-double-up"></i></button>
+
+    <!-- </div> -->
+    
+    <!-- JavaScript Libraries -->
+    <script src="./js/index.js" type="module"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/bootstrap.bundle.js"></script>
+
+   
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.10.2/umd/popper.min.js"></script>
+  </body>
+</html>
