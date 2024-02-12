@@ -65,19 +65,28 @@ body {
 .custom-centered-div {
 
     position:absolute;
-    top: 0;
+    /* top: 0; */
     left: 15%;
     right: 15%;
-    bottom: 20px; 
+    bottom: 20%; 
     z-index: 10;
     padding-top: 20px;
     padding-bottom:20px ;
+    /* transform: translate(-50%, -50%); */
+
     /* background: rgba(61, 70, 77, 0.5);
     display: flex;
     align-items: center;
     justify-content: center; */
 }
-
+@media (max-width: 360px) {
+  .custom-centered-div {
+    width: 90%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
 .prev{
 
     left: 2%;

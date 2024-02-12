@@ -37,12 +37,12 @@ function validName(){
 
             if(Number(c) || input.length == 0 )
             {
+            
                 document.querySelector("#name").nextElementSibling.classList.remove("d-none")
                 return
             }
             else{
                 document.querySelector("#name").nextElementSibling.classList.add("d-none")
-                return
             }
        }
     }
