@@ -43,6 +43,10 @@ function validName(){
             }
             else{
                 document.querySelector("#name").nextElementSibling.classList.add("d-none")
+<<<<<<< HEAD
+=======
+                
+>>>>>>> 1df723b18ebe331dc407babb4996ab2db14b5586
             }
        }
     }
