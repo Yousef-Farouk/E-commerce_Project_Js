@@ -42,7 +42,7 @@ function validName(){
             }
             else{
                 document.querySelector("#name").nextElementSibling.classList.add("d-none")
-                return
+                
             }
        }
     }
